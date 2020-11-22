@@ -150,6 +150,11 @@ header {
     background-color: #fafafa;
 }
 
+.bg-color-personal-info-1 {
+    background-color: #fafafa;
+}
+
+
 .ui-menu-color-home {
     background-color: #DAA520;
 }
@@ -376,7 +381,7 @@ hr {
 
 #right-about {
     padding-top: 80px;
-    width: 33%;
+    width: 100%;
     float: right;
 }
 
