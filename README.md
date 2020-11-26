@@ -1,4 +1,4 @@
-# This is my User Centric Frontend-DevelopmentMilestone Project
+# This is my User Centric Frontend-Development Milestone Project
 
 Welcome to my very first website!
 
@@ -17,6 +17,7 @@ The objective is to create an appealing personal portfolio site, and present mys
 ## Project Inspiration
 The whole project is based on the Milestone project and love running project learned skills. Most of the codes used are from both projects. So, for this Milestone project I have used  CSS and User Centric Frontend skills learned so far in this course.
 
+## Wireframes
 Potential features to include:
 Tell about educational history and work experience.
 
