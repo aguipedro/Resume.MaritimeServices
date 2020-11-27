@@ -116,14 +116,14 @@
 .my-work {
     margin-top: 100px;
     padding-left: 90px;
+  
 }
 
 .my-work-specialty-logo {
     color: #e2c20a; 
 }
 .my-work-items {
-    padding-left: 95px;
-    text-align: justify;
+    padding-left: 90px;
     width: 100%;
 }
 
@@ -138,8 +138,7 @@
 }
 
 .my-specialty-items {
-    padding-left: 95px;
-    text-align: justify;
+    padding-left: 90px;
     width: 100%;
 }
 
@@ -154,7 +153,6 @@
 
 .my-network-items {
     padding-right: 90px;
-    text-align: justify;
     width: 100%;
 }
 
@@ -164,9 +162,9 @@
 }
 
 .my-connections-items {
-    padding-right: 60px;
-    text-align: justify;
+    padding-right: 90px;
     width: 100%;
+    padding-bottom: 80px;
 }
 
 /* ----------------------------------------SECTION-about Me */
