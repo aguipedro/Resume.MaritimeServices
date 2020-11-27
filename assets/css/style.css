@@ -19,6 +19,23 @@
     color: #fff;
 }
 
+.name-1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 45px;
+    color: #131111;
+}
+
+.title-1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    color: #131111;
+}
+
 .heading {
     text-align: center
 }
@@ -28,11 +45,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 258px;
+    min-height: 300px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     float: right; 
+    padding-top: 5px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -89,16 +107,20 @@
     background-color: #293746;
 }
 
+.bg-color-name-title-1 {
+    background-color: #fafafa;
+}
+
 .ui-menu-color-home {
     background-color: #77180b;
 }
 
 .ui-menu-color-resume {
-    background-color: #4366a7;
+    background-color: #332828ab;
 }
 
 .ui-menu-color-hire {
-    background-color: #332828ab; 
+    background-color: #4366a7; 
 }
 
 .ui-menu-color-contact {
@@ -115,64 +137,68 @@
 
 .my-work {
     margin-top: 100px;
-    padding-left: 90px;
-  
+    padding-left: 60px;
+    width: 90%; 
 }
 
 .my-work-specialty-logo {
     color: #e2c20a; 
 }
 .my-work-items {
-    padding-left: 90px;
-    width: 100%;
+    width: 90%;     
+    padding-left: 70px;
 }
 
 .hr-1 {
     background-color: #00FF00;
     margin: 0;
     width:100%;
+
 }
 .my-specialty {
     margin-top: 50px;
-    padding-left: 90px;
+    padding-left: 60px;
+    width: 90%;
+
 }
 
 .my-specialty-items {
-    padding-left: 90px;
-    width: 100%;
+    width: 90%;
+    padding-left: 70px;
 }
 
 .my-network {
     margin-top: 100px;
-    padding-right: 90px;
-}
+    padding-left: 60px;
+}   
 
 .my-network-connections-logo  {
     color: #e2c20a; 
 }
 
 .my-network-items {
-    padding-right: 90px;
     width: 100%;
+    padding-left: 70px;  
 }
 
 .my-connections {
     margin-top: 50px;
-    padding-right: 90px;
+    padding-left: 60px;
+   
 }
 
 .my-connections-items {
-    padding-right: 90px;
     width: 100%;
     padding-bottom: 80px;
+    padding-left: 70px;  
 }
 
 /* ----------------------------------------SECTION-about Me */
 
 #about-me {
     margin-top: 30px;
-    text-align: center;
     font-size: 200%;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -185,7 +211,7 @@
 
 #center-about {
     width: 100%;
-    margin: 0 auto;
+    
 }
 
 #circle-container {
@@ -203,6 +229,224 @@
     background: url('https://i.imgur.com/LqgfZ1C.jpg') no-repeat center center;
     height: 100%;
     border-radius: 100%;
+}
+
+/* ----------------------------------------RESUME */
+
+.bg-color-work-history {
+    background-color: #4366a7;
+}
+
+.bg-color-education {
+    background-color: #4366a7;
+}
+
+.bg-color-skills {
+    background-color: #fff;
+}
+
+.history-heading,
+.skills-heading,
+.section-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+/*---------------------------------------- Skills*/
+.skills-icon{
+    font-size: 18px;
+    color: #e2c20a;
+}
+
+.skills-item {
+    font-size: 18px;
+}
+
+.skills-item-1 {
+     padding-bottom: 30px;
+}
+
+.hr-2 {
+    background-color: #00FF00;
+    width:80%;
+    margin-bottom: 5px;
+}
+
+.skills-heading {
+    color: #293746;
+    margin-bottom: 80px;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    width: 100%; 
+    margin: 8px;  
+}
+
+.progress-type {
+    position: absolute;
+    font-weight: 600;
+    padding: 3px 3px 2px 3px;
+    color:#fff;
+    font-size: 12px;  
+}
+
+/*---------------------------------------- work History*/
+
+.history-heading {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color:#fff;
+    border-left: 1px solid;
+}
+
+.timeline-item  p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 2em;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 0;
+    color: #00FF00;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fff;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+.work-location {
+    color: #00FF00;
+}
+
+/*---------------------------------------- Contact Form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:#fafafa;
+    background-color: #DAA520;
+}
+
+/*---------------------------------------- Media Queries*/
+
+@media(min-width:992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+/* ----------------------------------------Special paddings/margins/text */
+
+.general-sub {
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+    color: #fff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+h1,
+h2 { 
+    text-align: center;
+}
+
+/* ----------------------------------------hire-me */
+
+.logo-1 {
+    background: url("../images/anchor2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    padding-top: 10px;    
+}
+
+.contact {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #1d1919;
+    text-align: left;
+
+}
+
+.contact-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 150;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #1d1919;
+    
 }
 
 /* ----------------------------------------Footer */
@@ -256,6 +500,4 @@ footer {
 #footer-details {
     padding: 20px;
 }
-
-
 
