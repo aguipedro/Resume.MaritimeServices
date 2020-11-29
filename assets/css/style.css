@@ -46,11 +46,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 300px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    float: right; 
-    padding-top: 5px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -62,7 +57,7 @@
 }
 
 #nav li {
-    font-size: 28px;
+    font-size: 16px;
     padding: 0;
 }
 
@@ -87,7 +82,7 @@
     padding-top: 22px;
     display: block;
     color: #fff;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .menuitem span {
@@ -134,42 +129,50 @@
 }
 
 /*--------------------------------------------SECTION-work-specialty-network-connections*/
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 .my-work {
-    margin-top: 100px;
-    padding-left: 60px;
-    width: 90%; 
+    padding-top: 50px;
+    text-align: center;
 }
 
 .my-work-specialty-logo {
     color: #e2c20a; 
 }
 .my-work-items {
-    width: 90%;     
-    padding-left: 70px;
+    text-align: center;
+}
+
+ .my-work-items p {   
+    margin: auto;
 }
 
 .hr-1 {
     background-color: #00FF00;
     margin: 0;
     width:100%;
-
 }
-.my-specialty {
-    margin-top: 50px;
-    padding-left: 60px;
-    width: 90%;
 
+.my-specialty {
+    padding-top: 50px;
+    text-align: center;
 }
 
 .my-specialty-items {
-    width: 90%;
-    padding-left: 70px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.my-specialty-items p {
+    margin: auto;
 }
 
 .my-network {
-    margin-top: 100px;
-    padding-left: 60px;
+    padding-top: 50px;
+    text-align: center;
 }   
 
 .my-network-connections-logo  {
@@ -177,26 +180,29 @@
 }
 
 .my-network-items {
-    width: 100%;
-    padding-left: 70px;  
+    text-align: center; 
+}
+
+.my-network-items p {
+    margin: 0; 
 }
 
 .my-connections {
-    margin-top: 50px;
-    padding-left: 60px;
-   
+    padding-top: 50px;
+    text-align: center;  
 }
 
 .my-connections-items {
-    width: 100%;
-    padding-bottom: 80px;
-    padding-left: 70px;  
+    text-align: center;
+}
+
+.my-connections-items p {
+    margin: auto;
 }
 
 /* ----------------------------------------SECTION-about Me */
 
 #about-me {
-    margin-top: 30px;
     font-size: 200%;
     text-align: center;
     text-transform: uppercase;
@@ -209,15 +215,16 @@
     font-size: 100%;
 }
 
-#center-about {
-    width: 100%;
-    
+#center-about {  
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #circle-container {
     width: 300px;
     height: 300px;
-    padding: 5px;
+    padding: 10px;
     border-style: solid;
     border-color: #00FF00;
     border-width: 2px;
@@ -231,7 +238,56 @@
     border-radius: 100%;
 }
 
-/* ----------------------------------------RESUME */
+/*---------------------------------------- Skills*/
+
+.skills-icon{
+    font-size: 18px;
+    color: #e2c20a;
+}
+
+.skills-item {
+    font-size: 18px;
+    text-align: center;  
+}
+
+.skills-item  p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+}
+
+.skills-item-bar {
+    padding-right: 40px;  
+}
+
+.section-column {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.skills-heading {
+    color: #293746;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    width: 100%; 
+    margin: 5px; 
+}
+
+.progress-type {
+    position: absolute;
+    font-weight: 600;
+    color:#293746;
+    font-size: 15px;  
+}
+
+/*---------------------------------------- work-Education History RESUME*/
 
 .bg-color-work-history {
     background-color: #4366a7;
@@ -245,70 +301,10 @@
     background-color: #fff;
 }
 
-.history-heading,
-.skills-heading,
-.section-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
-
-.row-table {
-    display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-/*---------------------------------------- Skills*/
-.skills-icon{
-    font-size: 18px;
-    color: #e2c20a;
-}
-
-.skills-item {
-    font-size: 18px;
-}
-
-.skills-item-1 {
-     padding-bottom: 30px;
-}
-
-.hr-2 {
-    background-color: #00FF00;
-    width:80%;
-    margin-bottom: 5px;
-}
-
-.skills-heading {
-    color: #293746;
-    margin-bottom: 80px;
-}
-
-.progress {
-    position: relative;
-    height: 25px;
-    width: 100%; 
-    margin: 8px;  
-}
-
-.progress-type {
-    position: absolute;
-    font-weight: 600;
-    padding: 3px 3px 2px 3px;
-    color:#fff;
-    font-size: 12px;  
-}
-
-/*---------------------------------------- work History*/
-
 .history-heading {
     color: #fff;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .timeline-item {
@@ -326,14 +322,31 @@
 .timeline-item:before {
     content: attr(data-dates);
     position: absolute;
-    left: 2.5em;
+    left: 2.0em;
     top: 2em;
     display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 1em;
-    padding: 0;
-    color: #00FF00;
+    color: #00FF00;  
+}
+
+.section-work {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section-work-1 {
+    padding-left: 80px;
+}
+
+.section-education {
+    padding-left: 30px;
+    padding-right: 60px;
+}
+
+.section-education-1 {
+    padding-left: 80px;
 }
 
 .timeline-item:after {
@@ -345,15 +358,16 @@
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: #fff;
+    background: #fff;  
 }
 
 .history-items {
     margin-bottom: 30px;
+    
 }
 
 .work-location {
-    color: #00FF00;
+    color: #00FF00; 
 }
 
 /*---------------------------------------- Contact Form*/
@@ -422,10 +436,6 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    padding-top: 10px;    
 }
 
 .contact {
@@ -434,9 +444,16 @@ h2 {
     font-size: 28px;
     margin-top: 30px;
     margin-bottom: 30px;
-    color: #1d1919;
-    text-align: left;
+    color: #293746;
+    text-align: center;
+}
 
+.hr-3 {
+    color: #00FF00;
+}
+
+.hr-4 {
+    text-align: center;
 }
 
 .contact-item {
@@ -445,8 +462,8 @@ h2 {
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
-    color: #1d1919;
-    
+    color: #00FF00;
+    text-align: center;
 }
 
 /* ----------------------------------------Footer */
@@ -485,7 +502,7 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color:  #00FF00;
+    color:  #293746;
     background: #fff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
