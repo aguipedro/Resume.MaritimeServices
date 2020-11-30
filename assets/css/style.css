@@ -41,11 +41,14 @@
 }
 
 .logo {
-    background: url("../images/agui.JPG");
+     background: url("../images/agui.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 340px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .list-inline-item:not(:last-child) {
@@ -57,7 +60,7 @@
 }
 
 #nav li {
-    font-size: 16px;
+    font-size: 14px;
     padding: 0;
 }
 
@@ -66,7 +69,7 @@
 }
 
 .menuitem {
-    height: 120px;
+    height: 140px;
     text-align: center;
     padding: 0;
 }
@@ -75,7 +78,7 @@
     width: 100%;
     text-decoration: none;
     color:  #fff;
-    height: 120px;
+    height: 140px;
 }
 
 .menuitem a i {
@@ -125,13 +128,13 @@
 /*--------------------------------------------Header-Hover.css*/
 .hvr-bounce-to-right:before {
     background:rgba(0,0,0,0.2);
-    height: 120px;
+    height: 140px;
 }
 
 /*--------------------------------------------SECTION-work-specialty-network-connections*/
 .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .my-work {
@@ -341,8 +344,8 @@
 }
 
 .section-education {
-    padding-left: 30px;
-    padding-right: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .section-education-1 {
@@ -458,7 +461,7 @@ h2 {
 
 .contact-item {
     font-family: "Roboto", sans-serif;
-    font-weight: 150;
+    font-weight: 100;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
