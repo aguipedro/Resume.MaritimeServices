@@ -132,8 +132,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   Header
+<<<<<<< HEAD:README.md
     -  The design in the wireframe was to have the navigation bar on the top of the picture and on top of the items name and title. However, I have decided to keep the navigation bar, below the picture and the items name and title as it looks better.
     -  The profile picture maybe displayed with top of the picture slightly cut off on larger screens devices.
+=======
+    - The design in the wireframe was to have the navigation bar on the top of the picture and on top of the items name and title. However, I have decided to keep the navigation bar, below the picture and the items name and title as it looks better.
+>>>>>>> 970e5330589671d20928f3b2bbc9abf7c6cefe36:readme.md
 -   Home page
     -  I spent lot of time in putting the profile picture left and align it correctly with navigation bars. After consulting external sources such as W3SCHOOLS and the course contents, I finally managed to do it correctly.
     -  The picture of the ship and the structure around it may appear slight off-centered(moved to the right) when view in smaller screens.
@@ -208,6 +212,13 @@ Your site is published at click [Here](https://aguipedro.github.io/User-Centric-
 ### Acknowledgements
 
 -   For my Mentor for continuous support and for the helpful feedback.
+<<<<<<< HEAD:README.md
+=======
+
+-   For the Slack Community.
+
+-   For Tutor support at Code Institute for being helpful at all the time.
+>>>>>>> 970e5330589671d20928f3b2bbc9abf7c6cefe36:readme.md
 
 -   For the Slack Community.
 
